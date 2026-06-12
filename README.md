@@ -29,7 +29,7 @@ Both files share the same row schema. One JSON object per line. Fields in declar
 | `cce_renewal_oreg` | `string \| null` | Renewal's transcribed reference to its original registration cite. |
 | `nypl_uuid` | `string` | NYPL's UUID for the CCE registration record. |
 | `verdict` | `string` | One of `match`, `no_match`, `unsure`. |
-| `categories` | `string[]` | Structured rationale tags. Possible values: `marc_whole_cce_part`, `cce_whole_marc_part`, `translation`, `ocr_confusion`, `same_title_different_work`, `generic_title`. Often empty. |
+| `categories` | `string[]` | Structured rationale tags. Possible values: `marc_whole_cce_part`, `cce_whole_marc_part`, `translation`, `different_edition`, `ocr_confusion`, `same_title_different_work`, `generic_title`. Often empty. |
 | `labeled_at` | `string` | ISO 8601 timestamp (UTC). |
 | `labeler` | `string` | Reviewer username. |
 | `marc_control_id` | `string` | MARC catalog control ID. Provenance only. |
